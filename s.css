@@ -1,0 +1,140 @@
+
+
+.header{
+    
+   
+    display: flex;
+    align-items:center;
+    
+  }
+.header__logo{
+    color: #fbff05;
+    margin-left: 0 auto;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+ 
+}
+.toolbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+  .link {
+    float: right;
+    padding: 0 10px;
+    display: inline;
+  }
+
+  .toolbar li a{
+    display: block;
+    color: #fbff05;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
+  }
+  
+  .toolbar li a:hover {
+    background-color: #3f3a3a8c;
+    color: #FFF;
+  }
+  .home_header {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    margin: 0 auto; 
+    padding: 10px;
+    color: #fbff05;
+
+  
+  }
+  .container {
+    width: 50%;
+    margin: 0 auto;  
+    padding: 20px;   
+    color: #f5f856;
+    text-align: center; 
+    line-height: 1.5;
+}
+
+
+.pro-grid {
+  display: grid;
+  padding: 10px;
+  text-align: center;
+  grid-template-columns: 252px 252px 252px;
+  column-gap: 100px;
+  justify-content: center;
+
+}
+
+
+
+.product img{
+
+width: 100%;
+height: auto;
+object-fit: contain;
+
+}
+
+.product{
+  border-radius: 8px;
+  border-color: #fbff05;
+  border-width: 5px;
+  border-style: solid;
+}
+   
+.product button {
+  background-color: #fbff05;        
+  color: #000;                       
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 5px;
+  margin-bottom: 2px;
+ 
+}
+
+.product button:hover {
+  background-color: #ffb300;        
+  transform: scale(1.05);            
+}
+
+.product button:active {
+  transform: scale(0.97);           
+}
+
+.cart-product{
+  border-radius: 8px;
+  border-color: #fbff05;
+  border-width: 5px;
+  border-style: solid;
+
+
+}
+
+.product-cart img{
+
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  
+  }
+
+  .container ul{
+    list-style-type: none;
+  }
